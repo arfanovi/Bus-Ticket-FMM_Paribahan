@@ -10,26 +10,149 @@
 
     <title>FMM Paribahn</title>
 </head>
- <body class="bg-fuchsia-50 text-black">
+ <body class="bg-zinc-50">
     
 
 
-    <main class=" p-4">
+    <main class="p-5">
 
 
-        <section>
-            <div>
-                <h1>Paribahan</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloremque architecto nulla necessitatibus autem, maxime vitae animi voluptates debitis tempore.</p>
+        <section>    
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 justify-between">
+                        <li><a>Home</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>About</a></li>
+                        <div class="navbar-end mt-11">
+                            <a class="btn">Buy <img src="images/bus-icon.png" alt="" srcset=""></a>
+                          </div>
+                      </ul>             
+                  </div>
+                  <a class="btn btn-ghost text-xl">FMM Paribahan</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>About</a></li>
+                  </ul>
+                  
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Buy <img src="images/bus-icon.png" alt="" srcset=""></a>
+                  </div>
+              </div>
+        </section>
+
+
+
+        <section class="mx-4 lg:mx-32 my-10 bg-white">
+           <div class="hero flex flex-col gap-10 relative rounded-2xl px-4 lx:px-20 py-10 lg:py-40 " style="background-image: url(images/banner.png);">
+            <div class="hero-content text-center text-neutral-content">
+                <div class="text-white">
+                    <h1 class="lg:text-6xl text-4xl mb-5 font-semibold">End-to-End Travel with</h1>
+                    <h1 class="text-[#1DD100] mb-5 text-3xl lg:text-7xl font-extrabold">
+                        FMM Paribahan
+                    </h1>
+                    <p class="text-lg mb-10">
+                        Embark on your dream journey with absolute assurance as you plan your travel with unwavering confidence.
+                    </p>
+                    <button class="mb-18 bg-[#1DD100] p-5 rounded-xl text-black text-xl font-bold ">
+                       <a href="#buyTicket"> Buy Ticket</a>
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-10 lg:absolute lg:-bottom-10">
+                <div class="justify-center items-cente gap-5 py-3 px-10 rounded-xl bg-white text-black border-b-4 border-[#1DD100]">
+                    <img src="images/people.png" alt="" srcset="">
+                    <div class="flex flex-col gap-4">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl">500k</h1>
+                        <h1>Registerd User</h1>
+                    </div>
+                </div>
+                <div class="justify-center items-cente gap-5 py-3 px-10 rounded-xl bg-white text-black border-b-4 border-[#1DD100]">
+                    <img src="images/people.png" alt="" srcset="">
+                    <div class="flex flex-col gap-4">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl">500k</h1>
+                        <h1>Registerd User</h1>
+                    </div>
+                </div>
+                <div class="justify-center items-cente gap-5 py-3 px-10 rounded-xl bg-white text-black border-b-4 border-[#1DD100]">
+                    <img src="images/ticket-cupon.png" alt="" srcset="">
+                    <div class="flex flex-col gap-4">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl">400k</h1>
+                        <h1>Registerd User</h1>
+                    </div>
+                </div>
+                <div class="justify-center items-cente gap-5 py-3 px-10 rounded-xl bg-white text-black border-b-4 border-[#1DD100]">
+                    <img src="images/stoppage.png" alt="" srcset="">
+                    <div class="flex flex-col gap-4">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl">50k</h1>
+                        <h1>Registerd User</h1>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+
+
+
+
+        <section class="justify-center items-cente flex flex-col mx-4 lg:mx-32 mt-52 text-black ">
+            <h2 class="lg:text-5xl text-3xl font-extrabold">Best offeres for you</h2>
+            <div class="flex justify-between w-full mt-20 flex-col lg:flex-row gap-5">
+                <div class="rounded-3xl text-black flex justify-center items-center bg-[#FFBF0F] mt-20">
+                    <div class="lg:py-4 px-3 lg:px-12 py-1 ">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl opacity-70">15$ OFF</h1>
+                        <h1 class="text-2xl">On Your next purchase</h1>
+                        <h1 class="opacity-50">Use by Journey 2024</h1>
+                    </div>
+                    <img class="min-h-full" src="images/cupon-devider.png" alt="" srcset="">
+                    <div class="p-1 lg:p-4">
+                        <h1 class="text-sm lg:text-4xl font-bold">NEW15</h1>
+                        <h1>COUPON CODE</h1>
+                    </div>
+                </div>
+                <div class="rounded-3xl text-black flex justify-center items-center bg-[#FFBF0F]">
+                    <div class="lg:py-4 px-3 lg:px-12 py-1 ">
+                        <h1 class="lg:text-5xl font-extrabold text-3xl opacity-70">15$ OFF</h1>
+                        <h1 class="text-2xl">On Your next purchase</h1>
+                        <h1 class="opacity-50">Use by Journey 2024</h1>
+                    </div>
+                    <img class="min-h-full" src="images/cupon-devider.png" alt="" srcset="">
+                    <div class="p-1 lg:p-4">
+                        <h1 class="text-sm lg:text-4xl font-bold">NEW15</h1>
+                        <h1>COUPON CODE</h1>
+                    </div>
+                </div>
+            </div>
+
+            <button class="p-5 mt-28 rounded-xl bg-[#1DD1001A] text-2xl font-semibold border-[#1DD100] border text-[#1DD100]">
+                ALL OFFERS
+            </button>
+
+        </section>
+
+
+
+        <section id="buyTicket mt-10">
+            <div class="bg-slate-100 text-black text-center p-5 mt-20">
+                <h1 class="lg:text-5xl text-3xl font-extrabold p-5">Paribahan</h1>
+                <p class="font-semibold text-3xl p-5">The Efficiant management of a modern city heavily relies on a well-organized bus service.</p>
             </div>
 
 
-        <div class="flex flex-col mt-40 gap-5 bg-white lg:px-5 lg:flex-row justify-center items-cente   ">
+        <div class="flex flex-col mt-30 gap-5 bg-white lg:px-5 lg:flex-row justify-center items-cente   ">
 
                 <br>
              <div class="flex gap-5 flex-col">
                     
-                 <div class="flex flex-col gap-5 lg:flex-row p-2 justify-center items-cente">
+                 <div class="flex flex-col gap-5 lg:flex-row p-2 text-black items-cente">
                     <div class=" flex justify-between items-cente gap-5">
                     <img src="images/bus-logo.png" alt="" srcset="">
                          <div class="lg:text-lg text-xs">
@@ -37,13 +160,13 @@
                              <p>Coach-009-WEB</p>
                          </div>
                     </div>
-                <div class="">    
+                <div class=" text-black">    
                     <button class=" flex justify-center items-center gap-3 px-4 py-4 font-semibold border-opacity-15 text-[#030712]"  > <img src="images/seat-green.png" alt="" srcset="">Still Seat Left <span id="seatLefts" > 50 </span></button>
                 </div>
                 </div>
                     
     
-                    <div class="font-bold bg-[#F7F8F8] text-[#030712]  text-opacity-50 p-5">
+                    <div class="  bg-[#F7F8F8] text-[#030712]  text-opacity-70 p-5">
                         <div class="flex justify-between">
                             <h2>Route</h2>
                             <h1>Dhaka-Panchagarh</h1>
@@ -54,7 +177,7 @@
                         </div>
                     </div>
     
-                    <div class="py-3 flex gap-5 justify-around  items-center ">
+                    <div class="py-3 flex gap-5 justify-around  items-center text-black ">
                         <h3 class="bg-opacity-15 rounded-xl  p-2 text-center  bg-[#030712] lg:p-3 p-1">Borading Point - Rangpur </h3>
                         <h3 class="bg-opacity-15 rounded-xl  p-2 text-center  bg-[#030712] lg:p-3 p-1" >Dropping Point - Dinajpur</h3>
                         <h3 class="bg-opacity-15 rounded-xl  p-2 text-center  bg-[#030712] lg:p-3 p-1">Est. Time 11 Hour</h3>
@@ -73,14 +196,8 @@
         <br>
         <br>
         <hr>
-        <br>
-**************************************************
 
-        <section>
-           <div>
-      
-    </div>
-        </section>
+        <br>
         <section>
             <div class="flex gap-10 justify-center ">
               
@@ -94,66 +211,66 @@
                     <hr class="mt-2" style="color: black;">
                     <div  class="grid grid-cols-5 gap-4">
                         
-                        <button  id="A" class="btn seat" >A</button>
+                        <button   class="btn seat" >A</button>
                         <button id="A1" class="btn seat" >A1</button>
                         <button id="A2" class="btn seat" >A2</button>
                         <button id="A3" class="btn seat" >A3</button>
                         <button id="A4" class="btn seat" >A4</button>
 
 
-                        <button id="B" class="btn seat" >B</button>
+                        <button  class="btn seat" >B</button>
                         <button id="B1" class="btn seat" >B1</button>
                         <button id="B2" class="btn seat" >B2</button>
                         <button id="B3" class="btn seat" >B3</button>
                         <button id="B4" class="btn seat" >B4</button>
 
-                        <button id="C" class="btn seat" > C</button>
+                        <button  class="btn seat" > C</button>
                         <button id="C1" class="btn seat" > C1</button>
                         <button id="C1" class="btn seat" > C2</button>
                         <button id="C2" class="btn seat" >C3</button>
                         <button id="C3" class="btn seat" >C4</button>
                       
-                        <button id="D" class="btn seat" >D</button>
+                        <button  class="btn seat" >D</button>
                         <button id="D1" class="btn seat" >D1</button>
                         <button id="D2" class="btn seat" >D2</button>
                         <button id="D3" class="btn seat" >D3</button>
                         <button id="D4" class="btn seat" >D4</button>
 
-                        <button id="E" class="btn seat" >E</button>
+                        <button  class="btn seat" >E</button>
                         <button id="E1" class="btn seat" >E1</button>
                         <button id="E2" class="btn seat" >E2</button>
                         <button id="E3" class="btn seat" >E3</button>
                         <button id="E4" class="btn seat" >E4</button>
 
-                        <button id="F" class="btn seat" >F</button>
+                        <button  class="btn seat" >F</button>
                         <button id="F1" class="btn seat" >F1</button>
                         <button id="F2" class="btn seat" >F2</button>
                         <button id="F3" class="btn seat" >F3</button>
                         <button id="F4" class="btn seat" >F4</button>
 
-                        <button id="G" class="btn seat" >A</button>
-                        <button id="G1" class="btn seat" >A1</button>
-                        <button id="G2" class="btn seat" >A2</button>
-                        <button id="G3" class="btn seat" >A3</button>
-                        <button id="G4" class="btn seat" >A4</button>
+                        <button  class="btn seat" >G</button>
+                        <button id="G1" class="btn seat" >G1</button>
+                        <button id="G2" class="btn seat" >G2</button>
+                        <button id="G3" class="btn seat" >G3</button>
+                        <button id="G4" class="btn seat" >G4</button>
 
-                        <button id="H" class="btn seat" >A</button>
-                        <button id="H1" class="btn seat" >A1</button>
-                        <button id="H2" class="btn seat" >A2</button>
-                        <button id="H3" class="btn seat" >A3</button>
-                        <button id="H4" class="btn seat" >A4</button>
+                        <button  class="btn seat" >H</button>
+                        <button id="H1" class="btn seat" >H1</button>
+                        <button id="H2" class="btn seat" >H2</button>
+                        <button id="H3" class="btn seat" >H3</button>
+                        <button id="H4" class="btn seat" >H4</button>
 
-                        <button id="I" class="btn seat" >A</button>
-                        <button id="I1" class="btn seat" >A1</button>
-                        <button id="I2" class="btn seat" >A2</button>
-                        <button id="I3" class="btn seat" >A3</button>
-                        <button id="I4" class="btn seat" >A4</button>
+                        <button  class="btn seat" >I</button>
+                        <button id="I1" class="btn seat" >I1</button>
+                        <button id="I2" class="btn seat" >I2</button>
+                        <button id="I3" class="btn seat" >I3</button>
+                        <button id="I4" class="btn seat" >I4</button>
 
-                        <button id="J" class="btn seat" >A</button>
-                        <button id="J1" class="btn seat" >A1</button>
-                        <button id="J2" class="btn seat" >A2</button>
-                        <button id="J3" class="btn seat" >A3</button>
-                        <button id="J4" class="btn seat" >A4</button>
+                        <button  class="btn seat" >J</button>
+                        <button id="J1" class="btn seat" >J1</button>
+                        <button id="J2" class="btn seat" >J2</button>
+                        <button id="J3" class="btn seat" >J3</button>
+                        <button id="J4" class="btn seat" >J4</button>
                         
                     </div>
                 </div>
@@ -222,7 +339,28 @@
     </main>
 
 
-
+        <footer class="footer p-10 bg-base-300 text-base-content">
+            <div class="font-bold text-4xl " style="color: #C53415;">
+                <div>FMM</div>
+                <div>Paribahan</div>
+            </div>
+            <nav>
+              <h6 class="footer-title">Services</h6> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+     
+            <nav>
+              <h6 class="footer-title">Social</h6> 
+              <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+              </div>
+            </nav>
+          </footer>
+    
 
     <script>
     </script>
